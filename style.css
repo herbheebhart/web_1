@@ -1,0 +1,419 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    background-color:black;
+    height: 3rem;
+}
+.main-1{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.latest-wears{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.latest-wears h4{
+    color: wheat;
+    padding: 10px;
+}
+.shoping-icons a{
+    color: wheat;
+    font-size: 20px;
+    padding: 10px;
+}
+.section-3{
+    background: rgba(white);
+    padding: 5px;
+    background-attachment: fixed;
+    margin-top: 30px;
+}
+.main-2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding:15px;
+    height: 3rem;
+    border-bottom: gainsboro 3px solid;
+}
+.H{
+    color:rgb(255, 0, 0);
+}
+.F{
+    color:blue;
+}
+.W{
+    color: burlywood;
+}
+.home-page ul{
+    display: flex;
+    justify-content: space-between;
+}
+.home-page a{
+    padding: 15px;
+    color: rgba(0, 0, 0, 0.822);
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.main-3{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+     
+}
+.brand-text1{
+    margin-top: 200px;
+    text-align: center;
+}
+
+.brand-text1 p{
+    font-weight: lighter;
+    font-family: sans-serif;
+    font-size: 10px;
+}
+.brand-text1 h2{
+    font-weight: bolder;
+    font-family: cursive;
+    font-size: 30px;
+}
+.brand-img2{
+    background-image:url("images/big-img-02.jpg");
+    height: 30rem; 
+    background-repeat:no-repeat ;
+    background-size: cover;    
+
+}
+.section-4{
+    background-color: rgba(245, 245, 245, 0.678);
+}
+.main-icons{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 35px;
+    width:80%;
+    margin: 0px auto;
+    
+}
+.brand-icon{
+    padding: 10px;
+    margin: 10px;
+}
+.brand-icon i{
+    color: black;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 5px;
+    background: white;
+}
+.brand-icon h4{
+    margin-top: 30px ;
+    font-size: medium;
+    font-family: sans-serif;
+}
+.brand-icon p{
+  font-family:serif;  
+  font-size: 15px;
+  margin-top: 20px;
+}
+.main-trending-div{
+    width: 60%;
+    margin: 0px auto;
+    margin-top: 60px;
+}
+.trending-div {
+    text-align: center;
+    font-family: sans-serif;
+}
+.trending-div p{
+font-size: 15px;
+font-weight: bolder;
+}
+.latest-wears-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 40px;
+}
+.latest-div img{
+    width: 80%;
+}
+.j{
+    color: red;
+}
+
+.icon-arrow{
+    text-align: center;
+    margin-top: 30px;
+}
+.icon-arrow button{
+    border: 2px solid grey;
+    border-radius: 2px;
+    padding: 7px;
+    margin-top: 25px;
+}
+.icon-arrow button:hover{
+    background-color:rgba(0, 0, 255, 0.801);
+}
+.icon-arrow button{
+    padding: 5px;
+}
+.brand-logo{
+    display: flex;
+    justify-content: space-around;
+}
+.brand-div-img img{
+    background-color: rgba(0, 0, 0, 0.281);
+    margin-top: 70px;
+}
+.season{
+    background:rgba(211, 210, 210, 0.788);
+    height: 12rem;
+    text-align: center;
+    width: 40%;
+}
+.season h3{
+    font-size: 10px;
+    padding-bottom: 5px;
+    padding-top:30px;
+
+}
+.season h1{
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+.season p{
+    padding-bottom: 5px;
+    font-size: 10px;
+}
+
+#text-btn{
+    background: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    
+} 
+.flex-2{
+    display: flex;
+    flex-direction: row;
+    background:silver;
+    height: 12rem;
+    margin-left: 25px;
+    } 
+.mid{
+    width: 60%;
+    text-align: center;
+}
+.mid h4{
+    padding-bottom: 4px;
+    font-size: 10px;
+    padding-top:40px ;
+}  
+.mid h1{
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+.mid p{
+   padding-bottom: 5px;
+   font-size: 10px; 
+}
+#btn-id{
+    background:white;
+    color: black;
+    border:dotted;
+    padding: 10px; 
+}
+#img img{
+    position: relative;
+    left: 75px;
+}
+
+.flex-1{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: 0px auto;
+    margin-top: 5%;
+}
+.update{
+    display:flex;
+    flex-direction:row ;
+}
+.latest-text{
+    padding: 15px;
+}
+.latest-text h1{
+    font-size: 20px;
+    padding-bottom: 4px;
+}
+.latest-text h3{
+    font-size: 10px;
+    font-family: cursive;
+    padding-top: 8px;
+}
+.latest-text p{
+    font-size: 15px;
+    padding-top: 7px;
+}
+.img-div{
+    padding-left: 20px;
+}
+#update-btn{
+    background:white;
+    color: black;
+    border:none;
+    padding: 10px;
+    margin-top: 10px; 
+}
+.div-new{
+    background:rgba(211, 210, 210, 0.788);
+    height: 17rem;
+    width: 60%;
+    margin: 0px auto;
+}
+.div-new h2{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-top: 15px;
+}
+.latest-new{
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    margin: 0px auto;
+    margin-top:7%;
+}
+.flex{
+    background:silver;
+    height: 17rem;
+    width: 30%;
+    margin: 0px auto;
+}
+.flex img{
+     position:relative;
+     left:80px;
+     border: 2px solid transparent;
+     border-radius: 50px;
+     margin-bottom: 25px;
+     margin-top: 15px;
+}
+.flex h1{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.flex p{
+    text-align: center;
+    font-size: 15px;
+}
+.purchase{
+    background: rgb(187, 187, 177);
+    height: 3rem;
+    display:flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    padding-top: 30px;
+}
+.purchase-div{
+    font-size: 20px;
+}
+.p-btn{
+    border:5px;
+    border-radius: 1px solid black;
+    background:rgba(255, 255, 255, 0.507);
+    padding: 10px;
+}
+
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    font-family: Courier New, Courier, monospace;
+}
+.form:hover{
+    background:rgba(198, 198, 201, 0.89);
+    cursor: pointer;
+}
+.form h1{
+    text-align: center;
+    color:rgba(0, 0, 0, 0.11);
+    font-size: 45px;
+    margin-bottom: 30px;
+    margin-top: px;
+    letter-spacing: 2px;
+}
+.search-field{
+ height:30px;
+ padding: 5px;
+ outline: none;
+}
+.skills{
+  width: 400px;  
+}
+.location{
+    width: 200px;
+}
+.search-button{
+    height:40px;
+    width: 150px;
+    color:ivory;
+    background: red;
+    border: none;
+}
+.search-button:hover{
+    background: yellow;
+    color: red;
+    cursor: pointer;
+}
+.form-box{
+    background: rgba(255,255,255,0.5);
+    padding: 15px;
+    box-shadow: rosybrown;
+}
+.form-box:hover{
+    background: rgba(13, 27, 221, 0.774);
+}
+.logo-footer h2{
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.logo-footer a{
+    font-size: 15px;
+    color: white;
+}
+.extra h2{
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+.extra p{
+    font-size:15px;
+}
+.info h2{
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+.info p{
+    font-size:15px;
+}
+.contact h2{
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+.contact p{
+    font-size:15px;
+}
+.web-footer{
+    background:black;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding-top: 20px;
+}
